@@ -1,0 +1,52 @@
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: #557;
+}
+
+h1, h2 {
+  text-align: center;
+  margin: auto;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+button#start-game-button {
+  display: block;
+  width: 180px;
+  height: 30px;
+  font-size: 25px;
+  background-color: #888;
+  border: none;
+  margin: 25px auto;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+div#info-container {
+  order: 2;
+  float: right;
+  box-sizing: border-box;
+  margin: 25px;
+  padding: 10px;
+  height: 400px; 
+  width: 300px;
+  background-color: #222;
+  color: #bbb;
+}
+
+canvas#runner-game {
+  order: 1;
+  margin: 25px auto;
+  width: 800px;
+  height: 400px;
+}
+
+#score-readout {
+  font-size: 25px;
+}
