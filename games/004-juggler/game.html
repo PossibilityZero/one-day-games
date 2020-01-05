@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game 004: Juggler</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<h1>Game 004: Juggler</h1>
+<h2>2020-01-05</h2>
+<div id="game-container">
+  <canvas id="game" class="window-container"></canvas>
+  <div id="info-container" class="window-container">
+    <div id="score-readout" class="info-readout"></div>
+    <div id="lives-readout" class="info-readout"></div>
+    <div id="active-balls-readout" class="info-readout"></div>
+    <button id="reset">Restart Game</button>
+    <div id="rules">
+      <h3>Objective</h3>
+        <p>
+          Use your mouse to control the paddle. Try to keep as many balls in the air as possible. A new ball will be added every 5 seconds.
+        </p>
+      <h3>Scoring</h3>
+      <p>
+        Your score will gradually go up, exponentially faster the more balls you have alive. In addition, you get points for every bounce.
+      </p>
+      
+  </div>
+</div>
+<script src="./script.js"></script>
+</body>
